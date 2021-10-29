@@ -2,14 +2,10 @@
   --paragraph-color: rgb(104, 104, 104);
   --heading-fontfamily: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  --font-variant: small-caps;
 }
-body {
-  text-align: left;
-  margin: 250px 200px 350px 80px;
-}
-
 h1 {
-  font-variant: small-caps;
+  font-variant: var(--font-variant);
   font-size: 50px;
   font-family: var(--heading-fontfamily);
 }
@@ -21,9 +17,19 @@ p {
 a {
   color: black;
   font-size: 14px;
-  font-variant: small-caps;
+  font-variant: var(--font-variant);
 }
 .hero {
+  text-align: left;
+  margin: 30px 70px 30px 80px;
   background-color: #f9f9f9;
   padding: 75px;
+}
+.projects-row {
+  margin-left: 325px;
+  margin-top: -150px;
+  text-align: center;
+  font-variant: var(--font-variant);
+}
+.skills-row {
 }
