@@ -26,10 +26,11 @@ a {
   padding: 75px;
 }
 .projects-row {
-  margin-left: 325px;
+  margin-left: 370px;
   margin-top: -150px;
   text-align: center;
   font-variant: var(--font-variant);
 }
 .skills-row {
+  margin-top: 50px;
 }
