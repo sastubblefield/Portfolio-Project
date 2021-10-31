@@ -1,13 +1,21 @@
 :root {
+  --font-color: rgb(101, 186, 186);
   --paragraph-color: rgb(104, 104, 104);
   --heading-fontfamily: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   --font-variant: small-caps;
 }
+body {
+  font-family: "Julius Sans One", sans-serif;
+}
 h1 {
+  color: var(--font-color);
   font-variant: var(--font-variant);
-  font-size: 50px;
+  font-size: 60px;
   font-family: var(--heading-fontfamily);
+}
+h4 {
+  opacity: 60%;
 }
 p {
   font-size: 16px;
@@ -16,21 +24,22 @@ p {
 }
 a {
   color: black;
-  font-size: 14px;
+  font-size: 15px;
   font-variant: var(--font-variant);
 }
 .hero {
   text-align: left;
-  margin: 30px 70px 30px 80px;
   background-color: #f9f9f9;
-  padding: 75px;
+  padding: 65px;
 }
-.projects-row {
-  margin-left: 370px;
-  margin-top: -150px;
-  text-align: center;
-  font-variant: var(--font-variant);
-}
+
 .skills-row {
-  margin-top: 50px;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  font-variant: var(--font-variant);
+  flex: 7;
+}
+.skills-background {
+  padding: 75px;
 }
