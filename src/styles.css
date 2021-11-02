@@ -1,44 +1,47 @@
 :root {
-  --font-color: rgb(101, 186, 186);
-  --paragraph-color: rgb(104, 104, 104);
-  --heading-fontfamily: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  --font-color: rgb(189, 208, 208);
   --font-variant: small-caps;
+  --font-family: "Julius Sans One", sans-serif;
 }
 body {
-  font-family: "Julius Sans One", sans-serif;
+  font-family: var(--font-family);
 }
 h1 {
-  color: var(--font-color);
-  font-variant: var(--font-variant);
-  font-size: 60px;
-  font-family: var(--heading-fontfamily);
+  font-size: 45px;
 }
 h4 {
-  opacity: 60%;
+  opacity: 0.8;
+  font-size: 29px;
 }
 p {
-  font-size: 16px;
-  color: var(--paragraph-color);
+  opacity: 0.8;
+  font-size: 20px;
   line-height: 1.75;
+  font-variant: var(--font-variant);
 }
 a {
   color: black;
-  font-size: 15px;
+  opacity: 0.8;
+  font-size: 16px;
+}
+.contact-link {
   font-variant: var(--font-variant);
 }
 .hero {
   text-align: left;
   background-color: #f9f9f9;
-  padding: 65px;
+  padding: 40px;
 }
-
+img {
+  opacity: 0.6;
+}
 .skills-row {
+  opacity: 90%;
   text-align: center;
   margin-top: 10px;
   display: flex;
-  font-variant: var(--font-variant);
   flex: 7;
+  font-variant: var(--font-variant);
 }
 .skills-background {
   padding: 75px;
