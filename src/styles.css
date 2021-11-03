@@ -36,9 +36,10 @@ img {
 }
 .skills-row {
   opacity: 90%;
+  font-size: 12px;
+  text-align: center;
   margin-top: 10px;
-  display: flex;
-  flex: 2;
+  margin: auto;
   font-family: var(--font-family);
   font-variant: var(--font-variant);
 }
@@ -48,6 +49,5 @@ img {
 @media (max-width: 576px) {
   .skills-row {
     display: flex;
-    flex: 2;
   }
 }
