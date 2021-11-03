@@ -3,6 +3,7 @@
   --font-variant: small-caps;
   --font-family: "Julius Sans One", sans-serif;
 }
+
 h1 {
   opacity: 0.7;
   font-size: 42px;
@@ -29,25 +30,32 @@ a {
 }
 .hero {
   text-align: left;
-  padding: 40px;
+  padding: 90px;
 }
-img {
+.headshot {
+  margin-top: -250px;
+  margin-right: 100px;
+  border-radius: 50%;
+}
+.skills-row-photos {
   opacity: 0.6;
 }
 .skills-row {
   opacity: 90%;
   font-size: 12px;
   text-align: center;
-  margin-top: 10px;
-  margin: auto;
+  margin-top: 300px;
   font-family: var(--font-family);
   font-variant: var(--font-variant);
 }
-.skills-background {
-  padding: 75px;
-}
+
 @media (max-width: 576px) {
   .skills-row {
     display: flex;
+  }
+}
+@media (max-width: 900px) {
+  .headshot {
+    display: none;
   }
 }
