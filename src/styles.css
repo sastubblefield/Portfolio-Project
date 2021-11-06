@@ -3,7 +3,12 @@
   --font-variant: small-caps;
   --font-family: "Julius Sans One", sans-serif;
 }
+body {
+  max-width: 1100px;
+  margin: auto;
 
+  padding: 20px;
+}
 h1 {
   opacity: 0.7;
   font-size: 42px;
@@ -29,13 +34,13 @@ a {
   font-size: 18px;
 }
 .hero {
-  text-align: left;
-  padding: 90px;
+  text-align: right;
+  padding-right: 23px;
+  padding-top: 10px;
 }
 .headshot {
-  margin-top: -250px;
-  margin-right: 100px;
-  border-radius: 50%;
+  margin-top: -275px;
+  border: solid thin rgb(215, 211, 209);
 }
 .skills-row-photos {
   opacity: 0.6;
@@ -44,7 +49,7 @@ a {
   opacity: 90%;
   font-size: 12px;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 550px;
   font-family: var(--font-family);
   font-variant: var(--font-variant);
 }
@@ -53,9 +58,19 @@ a {
   .skills-row {
     display: flex;
   }
+  h1 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 21px;
+  }
+  p{
+      font-size: 14px;
+
+  }
 }
-@media (max-width: 900px) {
+@media (max-width: 1054px) {
   .headshot {
-    display: none;
+    margin-top: 20px;
   }
 }
