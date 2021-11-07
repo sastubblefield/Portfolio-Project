@@ -71,13 +71,13 @@ a {
     margin-bottom: -50px;
   }
   h1 {
-    font-size: 32px;
+    font-size: 34px;
   }
   h4 {
-    font-size: 22px;
+    font-size: 28px;
   }
   p {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 @media (max-width: 940px) {
