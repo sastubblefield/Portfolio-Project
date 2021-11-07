@@ -60,6 +60,7 @@ a {
   font-size: 12px;
   text-align: center;
   margin-top: 90px;
+  margin-bottom: 20px;
   font-family: var(--font-family);
   font-variant: var(--font-variant);
 }
