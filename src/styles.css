@@ -34,10 +34,9 @@ a {
 .contact-link {
   font-variant: var(--font-variant);
   font-size: 18px;
-
 }
 .contact-link :hover {
-  color: grey
+  color: grey;
 }
 .hero {
   text-align: right;
@@ -67,18 +66,30 @@ a {
   .skills-row {
     display: flex;
   }
+  .project-links {
+    margin-bottom: -50px;
+  }
   h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
   h4 {
-    font-size: 21px;
+    font-size: 22px;
   }
   p {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
-@media (max-width: 1054px) {
+@media (max-width: 940px) {
   .headshot {
     margin-top: 20px;
+  }
+  hr {
+    display: none;
+  }
+  .project-links {
+    margin-top: 80px;
+  }
+  .skills-row {
+    margin-top: 150px;
   }
 }
