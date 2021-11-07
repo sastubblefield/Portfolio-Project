@@ -35,8 +35,9 @@ a {
   font-variant: var(--font-variant);
   font-size: 18px;
 }
-.contact-link :hover {
-  color: grey;
+.contact-link:hover {
+  text-decoration: none;
+  color: var(--font-color);
 }
 .hero {
   text-align: right;
@@ -52,7 +53,7 @@ a {
 }
 
 .skills-row-photos {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .skills-row {
   opacity: 90%;
