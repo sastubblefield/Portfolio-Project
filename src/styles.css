@@ -3,10 +3,12 @@
   --font-variant: small-caps;
   --font-family: "Julius Sans One", sans-serif;
 }
+.nav-link {
+  font-size: 16px;
+}
 body {
   max-width: 1100px;
   margin: auto;
-
   padding: 20px;
 }
 h1 {
@@ -23,15 +25,19 @@ p {
   font-size: 17px;
   line-height: 1.75;
 }
+
 a {
   color: black;
   opacity: 0.8;
-  font-size: 16px;
   font-family: var(--font-family);
 }
 .contact-link {
   font-variant: var(--font-variant);
   font-size: 18px;
+
+}
+.contact-link :hover {
+  color: grey
 }
 .hero {
   text-align: right;
@@ -40,8 +46,12 @@ a {
 }
 .headshot {
   margin-top: -275px;
-  border: solid thin rgb(215, 211, 209);
 }
+
+.project-links {
+  text-align: center;
+}
+
 .skills-row-photos {
   opacity: 0.6;
 }
@@ -49,11 +59,10 @@ a {
   opacity: 90%;
   font-size: 12px;
   text-align: center;
-  margin-top: 550px;
+  margin-top: 90px;
   font-family: var(--font-family);
   font-variant: var(--font-variant);
 }
-
 @media (max-width: 576px) {
   .skills-row {
     display: flex;
@@ -64,9 +73,8 @@ a {
   h4 {
     font-size: 21px;
   }
-  p{
-      font-size: 14px;
-
+  p {
+    font-size: 14px;
   }
 }
 @media (max-width: 1054px) {
