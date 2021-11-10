@@ -16,6 +16,11 @@ h1 {
   font-size: 42px;
   font-family: var(--font-family);
 }
+h2 {
+  opacity: 0.7;
+  font-size: 42px;
+  font-family: var(--font-family);
+}
 h4 {
   opacity: 0.9;
   font-size: 28px;
@@ -25,7 +30,10 @@ p {
   font-size: 17px;
   line-height: 1.75;
 }
-
+.bio {
+  text-align: center;
+  padding: 100px 200px 30px 200px;
+}
 a {
   color: black;
   opacity: 0.8;
@@ -64,6 +72,10 @@ a {
   font-family: var(--font-family);
   font-variant: var(--font-variant);
 }
+#contact-form {
+  text-align: center;
+  padding: 30px 300px 30px 300px;
+}
 @media (max-width: 576px) {
   .skills-row {
     display: flex;
@@ -81,6 +93,15 @@ a {
     font-size: 11px;
   }
 }
+@media (max-width: 750px) {
+  #contact-form {
+    font-size: 10px;
+  }
+  .bio {
+    padding: 0;
+    font-size: 8px;
+  }
+}
 @media (max-width: 940px) {
   .headshot {
     margin-top: 20px;
@@ -93,5 +114,11 @@ a {
   }
   .skills-row {
     margin-top: 130px;
+  }
+  #contact-form {
+    padding: 30px 250px 30px 250px;
+  }
+  .bio {
+    padding: 100px 250px 30px 250px;
   }
 }

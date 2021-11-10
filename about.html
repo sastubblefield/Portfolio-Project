@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gruppo&family=Inconsolata:wght@200&family=Julius+Sans+One&family=Mate+SC&display=swap"
+    rel="stylesheet"
+  />
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shannon Stubblefield's web development portfolio"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -30,10 +40,57 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Shannon Stubblefield Porfolio - About Me</title>
+    <title>Shannon Stubblefield's Portfolio</title>
   </head>
   <body>
-    <h1>About Me</h1>
-    <a href="/">Back to Homepage</a>
+    <div class="bio">
+      <h1>About Me</h1>
+      <p class="font-weight-normal mt-3">
+        I have explored many cities, but San Diego stole my heart. During my
+        long time residency in the Bay Area, I had the opportunity to develop an
+        alignment of passions in dance, body politics, behavioral sciences, and
+        non-verbal communication. After completing an MFA in Performance
+        Studies, my search for the right community to utilize and further
+        develop these skills led me to Community Interface Services, where I
+        began advocating for disabiltiy rights and services. Supporting
+        participants through the pandemic, remotely, showed me just how criucial
+        information access is. This fueled me to begin a career in web
+        development and join the movement in web inclusion and accessibility.
+      </p>
+    </div>
+    <hr>
+    <div id="contact-form">
+      <h2>Contact Me</h2>
+      <form >
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input
+            type="name"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="First Last Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Comments</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            placeholder="I'd love to hear from you"  
+            rows="3"
+          ></textarea>
+        </div>
+      </form>
+    </div>
+    <a href="/" class="text-center d-block mt-5">Back to Homepage</a>
   </body>
 </html>
