@@ -72,9 +72,10 @@ a {
   font-family: var(--font-family);
   font-variant: var(--font-variant);
 }
-#contact-form {
-  text-align: center;
-  padding: 30px 300px 30px 300px;
+#social-media-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  
 }
 @media (max-width: 576px) {
   .skills-row {
@@ -93,20 +94,12 @@ a {
     font-size: 11px;
   }
 }
-@media (max-width: 750px) {
-  #contact-form {
-    font-size: 10px;
-  }
-  .bio {
-    padding: 0;
-    font-size: 8px;
-  }
-}
+
 @media (max-width: 940px) {
   .headshot {
     margin-top: 20px;
   }
-  hr {
+  .line-homepage {
     display: none;
   }
   .project-links {
@@ -114,11 +107,5 @@ a {
   }
   .skills-row {
     margin-top: 130px;
-  }
-  #contact-form {
-    padding: 30px 250px 30px 250px;
-  }
-  .bio {
-    padding: 100px 250px 30px 250px;
   }
 }
