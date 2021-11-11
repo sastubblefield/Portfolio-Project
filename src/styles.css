@@ -34,6 +34,9 @@ p {
   text-align: center;
   padding: 100px 200px 30px 200px;
 }
+.bio-paragraph {
+  font-size: 19px;
+}
 a {
   color: black;
   opacity: 0.8;
@@ -75,7 +78,6 @@ a {
 #social-media-buttons {
   display: flex;
   justify-content: space-evenly;
-  
 }
 @media (max-width: 576px) {
   .skills-row {
@@ -90,8 +92,24 @@ a {
   h4 {
     font-size: 28px;
   }
+   .bio-paragraph {
+    font-size: 10px;
+  }
   p {
     font-size: 11px;
+  }
+  .bio {
+    padding: 100px 0px 30px 0px;
+  }
+ 
+}
+
+@media (max-width: 870px) {
+  .bio-paragraph {
+    font-size: 16px;
+  }
+  .bio {
+    padding: 100px 100px 30px 100px;
   }
 }
 
