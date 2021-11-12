@@ -31,8 +31,7 @@ p {
   line-height: 1.75;
 }
 .bio {
-  text-align: center;
-  padding: 100px 200px 30px 200px;
+  padding: 100px 150px 50px 150px;
 }
 .bio-paragraph {
   font-size: 19px;
@@ -79,39 +78,6 @@ a {
   display: flex;
   justify-content: space-evenly;
 }
-@media (max-width: 576px) {
-  .skills-row {
-    display: flex;
-  }
-  .project-links {
-    margin-bottom: -50px;
-  }
-  h1 {
-    font-size: 34px;
-  }
-  h4 {
-    font-size: 28px;
-  }
-   .bio-paragraph {
-    font-size: 10px;
-  }
-  p {
-    font-size: 11px;
-  }
-  .bio {
-    padding: 100px 0px 30px 0px;
-  }
- 
-}
-
-@media (max-width: 870px) {
-  .bio-paragraph {
-    font-size: 16px;
-  }
-  .bio {
-    padding: 100px 100px 30px 100px;
-  }
-}
 
 @media (max-width: 940px) {
   .headshot {
@@ -125,5 +91,40 @@ a {
   }
   .skills-row {
     margin-top: 130px;
+  }
+  .bio-paragraph {
+    font-size: 15px;
+  }
+  .bio {
+    padding: 100px 150px 50px 150px;
+  }
+}
+@media (max-width: 750px) {
+  .bio {
+    padding: 100px 50px 50px 50px;
+  }
+  .bio-paragraph {
+    font-size: 13px;
+  }
+}
+@media (max-width: 576px) {
+  .skills-row {
+    display: flex;
+  }
+  .project-links {
+    margin-bottom: -50px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  h4 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+  .bio {
+    padding: 100px 5px 50px 5px;
   }
 }
