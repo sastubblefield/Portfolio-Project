@@ -107,7 +107,7 @@ a:hover {
   .skills-row {
     margin-top: 150px;
   }
-}
+  
 @media (max-width: 576px) {
   .skills-row {
     display: flex;
