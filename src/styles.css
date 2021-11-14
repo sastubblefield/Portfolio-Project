@@ -88,7 +88,7 @@ a:hover {
     margin-top: 80px;
   }
   .skills-row {
-    margin-top: 130px;
+    margin-top: 250px;
   }
   .bio-paragraph {
     font-size: 15px;
@@ -103,6 +103,9 @@ a:hover {
   }
   .bio-paragraph {
     font-size: 13px;
+  }
+  .skills-row {
+    margin-top: 150px;
   }
 }
 @media (max-width: 576px) {
