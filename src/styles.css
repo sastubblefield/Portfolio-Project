@@ -42,14 +42,7 @@ a {
   opacity: 0.8;
   font-family: var(--font-family);
 }
-.contact-link {
-  font-variant: var(--font-variant);
-  font-size: 18px;
-}
-.contact-link:hover {
-  text-decoration: none;
-  color: var(--font-color);
-}
+
 .hero {
   text-align: right;
   padding-right: 23px;
@@ -78,6 +71,7 @@ a {
 #social-media-buttons {
   display: flex;
   justify-content: space-evenly;
+  opacity: 0.7;
 }
 
 @media (max-width: 940px) {
