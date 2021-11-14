@@ -42,6 +42,9 @@ a {
   opacity: 0.8;
   font-family: var(--font-family);
 }
+a:hover {
+  color: black;
+}
 
 .hero {
   text-align: right;
