@@ -16,7 +16,6 @@ h1 {
   font-size: 42px;
   font-family: var(--font-family);
 }
-
 h2 {
   opacity: 0.7;
   font-size: 42px;
@@ -45,7 +44,6 @@ a {
 a:hover {
   color: black;
 }
-
 .hero {
   text-align: right;
   padding-right: 23px;
@@ -54,11 +52,9 @@ a:hover {
 .headshot {
   margin-top: -275px;
 }
-
 .project-links {
   text-align: center;
 }
-
 .skills-row-photos {
   opacity: 0.7;
 }
@@ -76,7 +72,9 @@ a:hover {
   justify-content: space-evenly;
   opacity: 0.7;
 }
-
+.dictionary-heading{
+  text-align: center;
+}
 @media (max-width: 940px) {
   .headshot {
     margin-top: 20px;
@@ -87,14 +85,14 @@ a:hover {
   .project-links {
     margin-top: 80px;
   }
-  .skills-row {
-    margin-top: 250px;
+.bio {
+    padding: 100px 150px 50px 150px;
   }
   .bio-paragraph {
     font-size: 15px;
   }
-  .bio {
-    padding: 100px 150px 50px 150px;
+  .skills-row {
+    margin-top: 250px;
   }
 }
 @media (max-width: 750px) {
@@ -105,13 +103,11 @@ a:hover {
     font-size: 13px;
   }
   .skills-row {
-    margin-top: 150px;
+    margin-top: 135px;
   }
   
 @media (max-width: 576px) {
-  .skills-row {
-    display: flex;
-  }
+  
   .project-links {
     margin-bottom: -50px;
   }
@@ -127,5 +123,8 @@ a:hover {
   }
   .bio {
     padding: 100px 5px 50px 5px;
+  }
+  .skills-row {
+    display: flex;
   }
 }
