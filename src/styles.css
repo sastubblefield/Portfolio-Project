@@ -77,7 +77,7 @@ a:hover {
 }
 @media (max-width: 940px) {
   .headshot {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .line-homepage {
     display: none;
